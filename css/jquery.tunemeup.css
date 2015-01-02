@@ -1,0 +1,45 @@
+@font-face {
+    font-family: heydings;
+    src: url("../fonts/heydings_controls.ttf");
+}
+
+.heydings {
+    font-family: heydings;
+}
+
+.tmuPlayer {
+    width: 390px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid;
+}
+
+.tmuPlayer > div {
+    float: left;
+}
+
+.buttonNav {
+    cursor: pointer;
+    width: 25px;
+    height: 50px;
+    line-height: 40px;
+    font-size: 24px;
+}
+
+.stop {
+    margin-right: 2px;
+}
+
+.playPause {
+    margin-right: 5px;
+}
+
+.repeat {
+    line-height: 52px;
+    margin-left: 8px;
+}
+
+div[id*="wave_"] {
+    width: 300px !important;
+}

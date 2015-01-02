@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+
+<html>
+
+    <head>
+        <title>Tune Me Up Demo</title>
+
+        <link rel="stylesheet" href="css/jquery.tunemeup.css" type="text/css"/>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="js/wavesurfer/wavesurfer.min.js"></script>
+        <script src="js/jquery.tunemeup.js"></script>
+
+        <script type="text/javascript">
+            $(function() {
+                $("#player").tuneMeUp({
+                    id: 1,
+                    songPath: "demo.mp3",
+                    theme: "dark"
+                });
+            });
+        </script>
+    </head>
+
+    <body>
+        <div id="player"></div>
+    </body>
+
+</html>

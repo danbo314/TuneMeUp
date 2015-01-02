@@ -1,0 +1,1040 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# object: http://ogp.me/ns/object# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+
+
+    <title>wavesurfer.js/wavesurfer-js-map.json at master · katspaugh/wavesurfer.js</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png">
+    <meta property="fb:app_id" content="1401488693436528">
+
+      <meta content="@github" name="twitter:site" /><meta content="summary" name="twitter:card" /><meta content="katspaugh/wavesurfer.js" name="twitter:title" /><meta content="wavesurfer.js - Navigable waveform built on Web Audio and Canvas" name="twitter:description" /><meta content="https://avatars3.githubusercontent.com/u/381895?v=3&amp;s=400" name="twitter:image:src" />
+<meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="https://avatars3.githubusercontent.com/u/381895?v=3&amp;s=400" property="og:image" /><meta content="katspaugh/wavesurfer.js" property="og:title" /><meta content="https://github.com/katspaugh/wavesurfer.js" property="og:url" /><meta content="wavesurfer.js - Navigable waveform built on Web Audio and Canvas" property="og:description" />
+
+      <meta name="browser-stats-url" content="/_stats">
+    <link rel="assets" href="https://assets-cdn.github.com/">
+    <link rel="conduit-xhr" href="https://ghconduit.com:25035">
+    <link rel="xhr-socket" href="/_sockets">
+    <meta name="pjax-timeout" content="1000">
+    <link rel="sudo-modal" href="/sessions/sudo_modal">
+
+    <meta name="msapplication-TileImage" content="/windows-tile.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="selected-link" value="repo_source" data-pjax-transient>
+      <meta name="google-analytics" content="UA-3769691-2">
+
+    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="43F708CA:5C32:609DDF:54A5FBD4" name="octolytics-dimension-request_id" /><meta content="4612175" name="octolytics-actor-id" /><meta content="danbo314" name="octolytics-actor-login" /><meta content="d865f263277bcb2287e3c7c0d1f1dc311693d3d8aa197bc3f009f773f210a063" name="octolytics-actor-hash" />
+
+    <meta content="Rails, view, blob#show" name="analytics-event" />
+
+
+
+    <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
+
+
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="kYPuHNpJefXBFoebzeaYG3ZaSS1dqTfXSrQ8hFo4Eo9RVELfPrHpQcmQl89d5K0DlV9QhJlGjz64OKjyBp26Fw==" name="csrf-token" />
+
+    <link href="https://assets-cdn.github.com/assets/github-9bcf5def7eb44e2a101b20aaecf3707f4b0a10ab8f4d6eebec29371f821c4b29.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="https://assets-cdn.github.com/assets/github2-988ddda9ae733ab44f308db199cb53eb70c7d0197679297459104380a8d923b3.css" media="all" rel="stylesheet" type="text/css" />
+
+
+
+
+    <meta http-equiv="x-pjax-version" content="8adfdb5fdc7bd044b4c0142729d0410c">
+
+
+  <meta name="description" content="wavesurfer.js - Navigable waveform built on Web Audio and Canvas">
+  <meta name="go-import" content="github.com/katspaugh/wavesurfer.js git https://github.com/katspaugh/wavesurfer.js.git">
+
+  <meta content="381895" name="octolytics-dimension-user_id" /><meta content="katspaugh" name="octolytics-dimension-user_login" /><meta content="3618686" name="octolytics-dimension-repository_id" /><meta content="katspaugh/wavesurfer.js" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="3618686" name="octolytics-dimension-repository_network_root_id" /><meta content="katspaugh/wavesurfer.js" name="octolytics-dimension-repository_network_root_nwo" />
+  <link href="https://github.com/katspaugh/wavesurfer.js/commits/master.atom" rel="alternate" title="Recent Commits to wavesurfer.js:master" type="application/atom+xml">
+
+  </head>
+
+
+  <body class="logged_in  env-production macintosh vis-public page-blob">
+    <a href="#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
+    <div class="wrapper">
+
+
+
+
+
+
+      <div class="header header-logged-in true" role="banner">
+  <div class="container clearfix">
+
+    <a class="header-logo-invertocat" href="https://github.com/" data-hotkey="g d" aria-label="Homepage" ga-data-click="Header, go to dashboard, icon:logo">
+  <span class="mega-octicon octicon-mark-github"></span>
+</a>
+
+
+      <div class="site-search repo-scope js-site-search" role="search">
+          <form accept-charset="UTF-8" action="/katspaugh/wavesurfer.js/search" class="js-site-search-form" data-global-search-url="/search" data-repo-search-url="/katspaugh/wavesurfer.js/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+  <input type="text"
+    class="js-site-search-field is-clearable"
+    data-hotkey="s"
+    name="q"
+    placeholder="Search"
+    data-global-scope-placeholder="Search GitHub"
+    data-repo-scope-placeholder="Search"
+    tabindex="1"
+    autocapitalize="off">
+  <div class="scope-badge">This repository</div>
+</form>
+      </div>
+      <ul class="header-nav left" role="navigation">
+        <li class="header-nav-item explore">
+          <a class="header-nav-link" href="/explore" data-ga-click="Header, go to explore, text:explore">Explore</a>
+        </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="https://gist.github.com" data-ga-click="Header, go to gist, text:gist">Gist</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/blog" data-ga-click="Header, go to blog, text:blog">Blog</a>
+          </li>
+        <li class="header-nav-item">
+          <a class="header-nav-link" href="https://help.github.com" data-ga-click="Header, go to help, text:help">Help</a>
+        </li>
+      </ul>
+
+
+<ul class="header-nav user-nav right" id="user-links">
+  <li class="header-nav-item dropdown js-menu-container">
+    <a class="header-nav-link name" href="/danbo314" data-ga-click="Header, go to profile, text:username">
+      <img alt="Dan Bolivar" class="avatar" data-user="4612175" height="20" src="https://avatars3.githubusercontent.com/u/4612175?v=3&amp;s=40" width="20" />
+      <span class="css-truncate">
+        <span class="css-truncate-target">danbo314</span>
+      </span>
+    </a>
+  </li>
+
+  <li class="header-nav-item dropdown js-menu-container">
+    <a class="header-nav-link js-menu-target tooltipped tooltipped-s" href="#" aria-label="Create new..." data-ga-click="Header, create new, icon:add">
+      <span class="octicon octicon-plus"></span>
+      <span class="dropdown-caret"></span>
+    </a>
+
+    <div class="dropdown-menu-content js-menu-content">
+
+<ul class="dropdown-menu">
+  <li>
+    <a href="/new"><span class="octicon octicon-repo"></span> New repository</a>
+  </li>
+  <li>
+    <a href="/organizations/new"><span class="octicon octicon-organization"></span> New organization</a>
+  </li>
+
+
+    <li class="dropdown-divider"></li>
+    <li class="dropdown-header">
+      <span title="katspaugh/wavesurfer.js">This repository</span>
+    </li>
+      <li>
+        <a href="/katspaugh/wavesurfer.js/issues/new"><span class="octicon octicon-issue-opened"></span> New issue</a>
+      </li>
+</ul>
+
+    </div>
+  </li>
+
+  <li class="header-nav-item">
+        <a href="/notifications" aria-label="You have no unread notifications" class="header-nav-link notification-indicator tooltipped tooltipped-s" data-ga-click="Header, go to notifications, icon:read" data-hotkey="g n">
+        <span class="mail-status all-read"></span>
+        <span class="octicon octicon-inbox"></span>
+</a>
+  </li>
+
+  <li class="header-nav-item">
+    <a class="header-nav-link tooltipped tooltipped-s" href="/settings/profile" id="account_settings" aria-label="Settings" data-ga-click="Header, go to settings, icon:settings">
+      <span class="octicon octicon-gear"></span>
+    </a>
+  </li>
+
+  <li class="header-nav-item">
+    <form accept-charset="UTF-8" action="/logout" class="logout-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="nc/efUTWjA0T1Yi4t6he73R4p62ih2zuri0bsxSQ2IZ9w/kDuj4mqPelQ8ihmDL+mkPAFVaDbBjfn6j/WIo/4w==" /></div>
+      <button class="header-nav-link sign-out-button tooltipped tooltipped-s" aria-label="Sign out" data-ga-click="Header, sign out, icon:logout">
+        <span class="octicon octicon-sign-out"></span>
+      </button>
+</form>  </li>
+
+</ul>
+
+
+
+  </div>
+</div>
+
+
+
+
+
+
+      <div id="start-of-content" class="accessibility-aid"></div>
+          <div class="site" itemscope itemtype="http://schema.org/WebPage">
+    <div id="js-flash-container">
+
+    </div>
+    <div class="pagehead repohead instapaper_ignore readability-menu">
+      <div class="container">
+
+<ul class="pagehead-actions">
+
+    <li class="subscription">
+      <form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="bdJ5W2+aN08lB0uUx0l4u5oyXF9ssXIFEcIX2kHh6JxW8PWroIzw3ieDK19zF35b+s9GmTWerRqVkkki1dHbOQ==" /></div>  <input id="repository_id" name="repository_id" type="hidden" value="3618686" />
+
+    <div class="select-menu js-menu-container js-select-menu">
+      <a class="social-count js-social-count" href="/katspaugh/wavesurfer.js/watchers">
+        71
+      </a>
+      <a href="/katspaugh/wavesurfer.js/subscription"
+        class="minibutton select-menu-button with-count js-menu-target" role="button" tabindex="0" aria-haspopup="true">
+        <span class="js-select-button">
+          <span class="octicon octicon-eye"></span>
+          Watch
+        </span>
+      </a>
+
+      <div class="select-menu-modal-holder">
+        <div class="select-menu-modal subscription-menu-modal js-menu-content" aria-hidden="true">
+          <div class="select-menu-header">
+            <span class="select-menu-title">Notifications</span>
+            <span class="octicon octicon-x js-menu-close" role="button" aria-label="Close"></span>
+          </div> <!-- /.select-menu-header -->
+
+          <div class="select-menu-list js-navigation-container" role="menu">
+
+            <div class="select-menu-item js-navigation-item selected" role="menuitem" tabindex="0">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <div class="select-menu-item-text">
+                <input checked="checked" id="do_included" name="do" type="radio" value="included" />
+                <h4>Not watching</h4>
+                <span class="description">Be notified when participating or @mentioned.</span>
+                <span class="js-select-button-text hidden-select-button-text">
+                  <span class="octicon octicon-eye"></span>
+                  Watch
+                </span>
+              </div>
+            </div> <!-- /.select-menu-item -->
+
+            <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
+              <span class="select-menu-item-icon octicon octicon octicon-check"></span>
+              <div class="select-menu-item-text">
+                <input id="do_subscribed" name="do" type="radio" value="subscribed" />
+                <h4>Watching</h4>
+                <span class="description">Be notified of all conversations.</span>
+                <span class="js-select-button-text hidden-select-button-text">
+                  <span class="octicon octicon-eye"></span>
+                  Unwatch
+                </span>
+              </div>
+            </div> <!-- /.select-menu-item -->
+
+            <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <div class="select-menu-item-text">
+                <input id="do_ignore" name="do" type="radio" value="ignore" />
+                <h4>Ignoring</h4>
+                <span class="description">Never be notified.</span>
+                <span class="js-select-button-text hidden-select-button-text">
+                  <span class="octicon octicon-mute"></span>
+                  Stop ignoring
+                </span>
+              </div>
+            </div> <!-- /.select-menu-item -->
+
+          </div> <!-- /.select-menu-list -->
+
+        </div> <!-- /.select-menu-modal -->
+      </div> <!-- /.select-menu-modal-holder -->
+    </div> <!-- /.select-menu -->
+
+</form>
+    </li>
+
+  <li>
+
+  <div class="js-toggler-container js-social-container starring-container on">
+
+    <form accept-charset="UTF-8" action="/katspaugh/wavesurfer.js/unstar" class="js-toggler-form starred js-unstar-button" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="AEkRJ2pJGNDXEL2cQ7gpsEqJTtZbcYrPboFvlJPonLVTQ0fIPTI1oaCSW+c9qLjMesJ4GaAzwL1QjYQpfDT3Ow==" /></div>
+      <button
+        class="minibutton with-count js-toggler-target star-button"
+        aria-label="Unstar this repository" title="Unstar katspaugh/wavesurfer.js">
+        <span class="octicon octicon-star"></span>
+        Unstar
+      </button>
+        <a class="social-count js-social-count" href="/katspaugh/wavesurfer.js/stargazers">
+          626
+        </a>
+</form>
+    <form accept-charset="UTF-8" action="/katspaugh/wavesurfer.js/star" class="js-toggler-form unstarred js-star-button" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="S559JbOtj5d0/fQkzcl2vld3rVhxRvUzgsO46FNavXya8pSyQeQJjBeSK9R4YVYQa9qCBKEZKfEybtZeHjpRLw==" /></div>
+      <button
+        class="minibutton with-count js-toggler-target star-button"
+        aria-label="Star this repository" title="Star katspaugh/wavesurfer.js">
+        <span class="octicon octicon-star"></span>
+        Star
+      </button>
+        <a class="social-count js-social-count" href="/katspaugh/wavesurfer.js/stargazers">
+          626
+        </a>
+</form>  </div>
+
+  </li>
+
+
+        <li>
+          <a href="/katspaugh/wavesurfer.js/fork" class="minibutton with-count js-toggler-target fork-button tooltipped-n" title="Fork your own copy of katspaugh/wavesurfer.js to your account" aria-label="Fork your own copy of katspaugh/wavesurfer.js to your account" rel="nofollow" data-method="post">
+            <span class="octicon octicon-repo-forked"></span>
+            Fork
+          </a>
+          <a href="/katspaugh/wavesurfer.js/network" class="social-count">167</a>
+        </li>
+
+</ul>
+
+        <h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title public">
+          <span class="mega-octicon octicon-repo"></span>
+          <span class="author"><a href="/katspaugh" class="url fn" itemprop="url" rel="author"><span itemprop="title">katspaugh</span></a></span><!--
+       --><span class="path-divider">/</span><!--
+       --><strong><a href="/katspaugh/wavesurfer.js" class="js-current-repository" data-pjax="#js-repo-pjax-container">wavesurfer.js</a></strong>
+
+          <span class="page-context-loader">
+            <img alt="" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </span>
+
+        </h1>
+      </div><!-- /.container -->
+    </div><!-- /.repohead -->
+
+    <div class="container">
+      <div class="repository-with-sidebar repo-container new-discussion-timeline  ">
+        <div class="repository-sidebar clearfix">
+
+<nav class="sunken-menu repo-nav js-repo-nav js-sidenav-container-pjax js-octicon-loaders"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container"
+     data-issue-count-url="/katspaugh/wavesurfer.js/issues/counts">
+  <ul class="sunken-menu-group">
+    <li class="tooltipped tooltipped-w" aria-label="Code">
+      <a href="/katspaugh/wavesurfer.js" aria-label="Code" class="selected js-selected-navigation-item sunken-menu-item" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches /katspaugh/wavesurfer.js">
+        <span class="octicon octicon-code"></span> <span class="full-word">Code</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>    </li>
+
+      <li class="tooltipped tooltipped-w" aria-label="Issues">
+        <a href="/katspaugh/wavesurfer.js/issues" aria-label="Issues" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g i" data-selected-links="repo_issues repo_labels repo_milestones /katspaugh/wavesurfer.js/issues">
+          <span class="octicon octicon-issue-opened"></span> <span class="full-word">Issues</span>
+          <span class="js-issue-replace-counter"></span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+    <li class="tooltipped tooltipped-w" aria-label="Pull Requests">
+      <a href="/katspaugh/wavesurfer.js/pulls" aria-label="Pull Requests" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g p" data-selected-links="repo_pulls /katspaugh/wavesurfer.js/pulls">
+          <span class="octicon octicon-git-pull-request"></span> <span class="full-word">Pull Requests</span>
+          <span class="js-pull-replace-counter"></span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>    </li>
+
+
+  </ul>
+  <div class="sunken-menu-separator"></div>
+  <ul class="sunken-menu-group">
+
+    <li class="tooltipped tooltipped-w" aria-label="Pulse">
+      <a href="/katspaugh/wavesurfer.js/pulse" aria-label="Pulse" class="js-selected-navigation-item sunken-menu-item" data-selected-links="pulse /katspaugh/wavesurfer.js/pulse">
+        <span class="octicon octicon-pulse"></span> <span class="full-word">Pulse</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>    </li>
+
+    <li class="tooltipped tooltipped-w" aria-label="Graphs">
+      <a href="/katspaugh/wavesurfer.js/graphs" aria-label="Graphs" class="js-selected-navigation-item sunken-menu-item" data-selected-links="repo_graphs repo_contributors /katspaugh/wavesurfer.js/graphs">
+        <span class="octicon octicon-graph"></span> <span class="full-word">Graphs</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>    </li>
+  </ul>
+
+
+</nav>
+
+              <div class="only-with-full-nav">
+
+
+<div class="clone-url open"
+  data-protocol-type="http"
+  data-url="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone">
+  <h3><span class="text-emphasized">HTTPS</span> clone URL</h3>
+  <div class="input-group js-zeroclipboard-container">
+    <input type="text" class="input-mini input-monospace js-url-field js-zeroclipboard-target"
+           value="https://github.com/katspaugh/wavesurfer.js.git" readonly="readonly">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard minibutton zeroclipboard-button" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+
+<div class="clone-url "
+  data-protocol-type="ssh"
+  data-url="/users/set_protocol?protocol_selector=ssh&amp;protocol_type=clone">
+  <h3><span class="text-emphasized">SSH</span> clone URL</h3>
+  <div class="input-group js-zeroclipboard-container">
+    <input type="text" class="input-mini input-monospace js-url-field js-zeroclipboard-target"
+           value="git@github.com:katspaugh/wavesurfer.js.git" readonly="readonly">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard minibutton zeroclipboard-button" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+
+<div class="clone-url "
+  data-protocol-type="subversion"
+  data-url="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone">
+  <h3><span class="text-emphasized">Subversion</span> checkout URL</h3>
+  <div class="input-group js-zeroclipboard-container">
+    <input type="text" class="input-mini input-monospace js-url-field js-zeroclipboard-target"
+           value="https://github.com/katspaugh/wavesurfer.js" readonly="readonly">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard minibutton zeroclipboard-button" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+
+
+<p class="clone-options">You can clone with
+  <a href="#" class="js-clone-selector" data-protocol="http">HTTPS</a>, <a href="#" class="js-clone-selector" data-protocol="ssh">SSH</a>, or <a href="#" class="js-clone-selector" data-protocol="subversion">Subversion</a>.
+  <a href="https://help.github.com/articles/which-remote-url-should-i-use" class="help tooltipped tooltipped-n" aria-label="Get help on which URL is right for you.">
+    <span class="octicon octicon-question"></span>
+  </a>
+</p>
+
+  <a href="http://mac.github.com" data-url="github-mac://openRepo/https://github.com/katspaugh/wavesurfer.js" class="minibutton sidebar-button js-conduit-rewrite-url" title="Save katspaugh/wavesurfer.js to your computer and use it in GitHub Desktop." aria-label="Save katspaugh/wavesurfer.js to your computer and use it in GitHub Desktop.">
+    <span class="octicon octicon-device-desktop"></span>
+    Clone in Desktop
+  </a>
+
+
+                <a href="/katspaugh/wavesurfer.js/archive/master.zip"
+                   class="minibutton sidebar-button"
+                   aria-label="Download the contents of katspaugh/wavesurfer.js as a zip file"
+                   title="Download the contents of katspaugh/wavesurfer.js as a zip file"
+                   rel="nofollow">
+                  <span class="octicon octicon-cloud-download"></span>
+                  Download ZIP
+                </a>
+              </div>
+        </div><!-- /.repository-sidebar -->
+
+        <div id="js-repo-pjax-container" class="repository-content context-loader-container" data-pjax-container>
+
+
+<a href="/katspaugh/wavesurfer.js/blob/6a136899c1e98e38b04b8450b3c6456e0697a019/build/wavesurfer-js-map.json" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
+
+<!-- blob contrib key: blob_contributors:v21:aec08eaf88915320d7efe7fdececdab9 -->
+
+<div class="file-navigation js-zeroclipboard-container">
+
+<div class="select-menu js-menu-container js-select-menu left">
+  <span class="minibutton select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    data-master-branch="master"
+    data-ref="master"
+    title="master"
+    role="button" aria-label="Switch branches or tags" tabindex="0" aria-haspopup="true">
+    <span class="octicon octicon-git-branch"></span>
+    <i>branch:</i>
+    <span class="js-select-button css-truncate-target">master</span>
+  </span>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax aria-hidden="true">
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <span class="select-menu-title">Switch branches/tags</span>
+        <span class="octicon octicon-x js-menu-close" role="button" aria-label="Close"></span>
+      </div> <!-- /.select-menu-header -->
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" class="js-select-menu-tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" class="js-select-menu-tab">Tags</a>
+            </li>
+          </ul>
+        </div><!-- /.select-menu-tabs -->
+      </div><!-- /.select-menu-filters -->
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/katspaugh/wavesurfer.js/blob/buffer-source/build/wavesurfer-js-map.json"
+                 data-name="buffer-source"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="buffer-source">buffer-source</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/katspaugh/wavesurfer.js/blob/gh-pages/build/wavesurfer-js-map.json"
+                 data-name="gh-pages"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="gh-pages">gh-pages</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/katspaugh/wavesurfer.js/blob/infinite-audio/build/wavesurfer-js-map.json"
+                 data-name="infinite-audio"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="infinite-audio">infinite-audio</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item selected">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/katspaugh/wavesurfer.js/blob/master/build/wavesurfer-js-map.json"
+                 data-name="master"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="master">master</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/katspaugh/wavesurfer.js/blob/media+buffer/build/wavesurfer-js-map.json"
+                 data-name="media+buffer"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="media+buffer">media+buffer</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/katspaugh/wavesurfer.js/blob/media-element-source/build/wavesurfer-js-map.json"
+                 data-name="media-element-source"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="media-element-source">media-element-source</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/katspaugh/wavesurfer.js/blob/regions/build/wavesurfer-js-map.json"
+                 data-name="regions"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="regions">regions</a>
+            </div> <!-- /.select-menu-item -->
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div> <!-- /.select-menu-list -->
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/katspaugh/wavesurfer.js/tree/1.0.10/build/wavesurfer-js-map.json"
+                 data-name="1.0.10"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="1.0.10">1.0.10</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/katspaugh/wavesurfer.js/tree/1.0.9/build/wavesurfer-js-map.json"
+                 data-name="1.0.9"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="1.0.9">1.0.9</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/katspaugh/wavesurfer.js/tree/1.0.8/build/wavesurfer-js-map.json"
+                 data-name="1.0.8"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="1.0.8">1.0.8</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/katspaugh/wavesurfer.js/tree/1.0.7/build/wavesurfer-js-map.json"
+                 data-name="1.0.7"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="1.0.7">1.0.7</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/katspaugh/wavesurfer.js/tree/1.0.6/build/wavesurfer-js-map.json"
+                 data-name="1.0.6"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="1.0.6">1.0.6</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/katspaugh/wavesurfer.js/tree/1.0.5/build/wavesurfer-js-map.json"
+                 data-name="1.0.5"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="1.0.5">1.0.5</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/katspaugh/wavesurfer.js/tree/1.0.4/build/wavesurfer-js-map.json"
+                 data-name="1.0.4"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="1.0.4">1.0.4</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/katspaugh/wavesurfer.js/tree/1.0.3/build/wavesurfer-js-map.json"
+                 data-name="1.0.3"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="1.0.3">1.0.3</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/katspaugh/wavesurfer.js/tree/1.0.2/build/wavesurfer-js-map.json"
+                 data-name="1.0.2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="1.0.2">1.0.2</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/katspaugh/wavesurfer.js/tree/1.0.1/build/wavesurfer-js-map.json"
+                 data-name="1.0.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="1.0.1">1.0.1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/katspaugh/wavesurfer.js/tree/1.0.0/build/wavesurfer-js-map.json"
+                 data-name="1.0.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="1.0.0">1.0.0</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/katspaugh/wavesurfer.js/tree/0.2.3/build/wavesurfer-js-map.json"
+                 data-name="0.2.3"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="0.2.3">0.2.3</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/katspaugh/wavesurfer.js/tree/0.2.2/build/wavesurfer-js-map.json"
+                 data-name="0.2.2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="0.2.2">0.2.2</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/katspaugh/wavesurfer.js/tree/0.2.1/build/wavesurfer-js-map.json"
+                 data-name="0.2.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="0.2.1">0.2.1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/katspaugh/wavesurfer.js/tree/0.2.0/build/wavesurfer-js-map.json"
+                 data-name="0.2.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="0.2.0">0.2.0</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/katspaugh/wavesurfer.js/tree/0.1.9/build/wavesurfer-js-map.json"
+                 data-name="0.1.9"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="0.1.9">0.1.9</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/katspaugh/wavesurfer.js/tree/0.1.8/build/wavesurfer-js-map.json"
+                 data-name="0.1.8"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="0.1.8">0.1.8</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/katspaugh/wavesurfer.js/tree/0.1.7/build/wavesurfer-js-map.json"
+                 data-name="0.1.7"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="0.1.7">0.1.7</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/katspaugh/wavesurfer.js/tree/0.1.6/build/wavesurfer-js-map.json"
+                 data-name="0.1.6"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="0.1.6">0.1.6</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/katspaugh/wavesurfer.js/tree/0.1.5/build/wavesurfer-js-map.json"
+                 data-name="0.1.5"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="0.1.5">0.1.5</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/katspaugh/wavesurfer.js/tree/0.1.4/build/wavesurfer-js-map.json"
+                 data-name="0.1.4"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="0.1.4">0.1.4</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/katspaugh/wavesurfer.js/tree/0.1.2/build/wavesurfer-js-map.json"
+                 data-name="0.1.2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="0.1.2">0.1.2</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/katspaugh/wavesurfer.js/tree/0.1.1/build/wavesurfer-js-map.json"
+                 data-name="0.1.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="0.1.1">0.1.1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/katspaugh/wavesurfer.js/tree/0.1.0/build/wavesurfer-js-map.json"
+                 data-name="0.1.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="0.1.0">0.1.0</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/katspaugh/wavesurfer.js/tree/0.0.8/build/wavesurfer-js-map.json"
+                 data-name="0.0.8"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="0.0.8">0.0.8</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/katspaugh/wavesurfer.js/tree/0.0.7/build/wavesurfer-js-map.json"
+                 data-name="0.0.7"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="0.0.7">0.0.7</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/katspaugh/wavesurfer.js/tree/0.0.6/build/wavesurfer-js-map.json"
+                 data-name="0.0.6"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="0.0.6">0.0.6</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/katspaugh/wavesurfer.js/tree/0.0.4/build/wavesurfer-js-map.json"
+                 data-name="0.0.4"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="0.0.4">0.0.4</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/katspaugh/wavesurfer.js/tree/0.0.3/build/wavesurfer-js-map.json"
+                 data-name="0.0.3"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="0.0.3">0.0.3</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/katspaugh/wavesurfer.js/tree/0.0.2/build/wavesurfer-js-map.json"
+                 data-name="0.0.2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="0.0.2">0.0.2</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/katspaugh/wavesurfer.js/tree/0.0.1/build/wavesurfer-js-map.json"
+                 data-name="0.0.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="0.0.1">0.0.1</a>
+            </div> <!-- /.select-menu-item -->
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div> <!-- /.select-menu-list -->
+
+    </div> <!-- /.select-menu-modal -->
+  </div> <!-- /.select-menu-modal-holder -->
+</div> <!-- /.select-menu -->
+
+  <div class="button-group right">
+    <a href="/katspaugh/wavesurfer.js/find/master"
+          class="js-show-file-finder minibutton empty-icon tooltipped tooltipped-s"
+          data-pjax
+          data-hotkey="t"
+          aria-label="Quickly jump between files">
+      <span class="octicon octicon-list-unordered"></span>
+    </a>
+    <button aria-label="Copy file path to clipboard" class="js-zeroclipboard minibutton zeroclipboard-button" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+  </div>
+
+  <div class="breadcrumb js-zeroclipboard-target">
+    <span class='repo-root js-repo-root'><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/katspaugh/wavesurfer.js" class="" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">wavesurfer.js</span></a></span></span><span class="separator">/</span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/katspaugh/wavesurfer.js/tree/master/build" class="" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">build</span></a></span><span class="separator">/</span><strong class="final-path">wavesurfer-js-map.json</strong>
+  </div>
+</div>
+
+
+  <div class="commit file-history-tease">
+    <div class="file-history-tease-header">
+        <img alt="katspaugh" class="avatar" data-user="381895" height="24" src="https://avatars3.githubusercontent.com/u/381895?v=3&amp;s=48" width="24" />
+        <span class="author"><a href="/katspaugh" rel="author">katspaugh</a></span>
+        <time datetime="2014-12-16T15:10:41Z" is="relative-time">Dec 16, 2014</time>
+        <div class="commit-title">
+            <a href="/katspaugh/wavesurfer.js/commit/5dc86ad877558d75a13c8543e6aba8ff95128ca4" class="message" data-pjax="true" title="update build and version">update build and version</a>
+        </div>
+    </div>
+
+    <div class="participation">
+      <p class="quickstat">
+        <a href="#blob_contributors_box" rel="facebox">
+          <strong>3</strong>
+           contributors
+        </a>
+      </p>
+          <a class="avatar-link tooltipped tooltipped-s" aria-label="katspaugh" href="/katspaugh/wavesurfer.js/commits/master/build/wavesurfer-js-map.json?author=katspaugh"><img alt="katspaugh" class="avatar" data-user="381895" height="20" src="https://avatars1.githubusercontent.com/u/381895?v=3&amp;s=40" width="20" /></a>
+    <a class="avatar-link tooltipped tooltipped-s" aria-label="mwise" href="/katspaugh/wavesurfer.js/commits/master/build/wavesurfer-js-map.json?author=mwise"><img alt="Mark Wise" class="avatar" data-user="1072" height="20" src="https://avatars0.githubusercontent.com/u/1072?v=3&amp;s=40" width="20" /></a>
+    <a class="avatar-link tooltipped tooltipped-s" aria-label="lionelB" href="/katspaugh/wavesurfer.js/commits/master/build/wavesurfer-js-map.json?author=lionelB"><img alt="Lionel" class="avatar" data-user="160320" height="20" src="https://avatars3.githubusercontent.com/u/160320?v=3&amp;s=40" width="20" /></a>
+
+
+    </div>
+    <div id="blob_contributors_box" style="display:none">
+      <h2 class="facebox-header">Users who have contributed to this file</h2>
+      <ul class="facebox-user-list">
+          <li class="facebox-user-list-item">
+            <img alt="katspaugh" data-user="381895" height="24" src="https://avatars3.githubusercontent.com/u/381895?v=3&amp;s=48" width="24" />
+            <a href="/katspaugh">katspaugh</a>
+          </li>
+          <li class="facebox-user-list-item">
+            <img alt="Mark Wise" data-user="1072" height="24" src="https://avatars2.githubusercontent.com/u/1072?v=3&amp;s=48" width="24" />
+            <a href="/mwise">mwise</a>
+          </li>
+          <li class="facebox-user-list-item">
+            <img alt="Lionel" data-user="160320" height="24" src="https://avatars1.githubusercontent.com/u/160320?v=3&amp;s=48" width="24" />
+            <a href="/lionelB">lionelB</a>
+          </li>
+      </ul>
+    </div>
+  </div>
+
+<div class="file-box">
+  <div class="file">
+    <div class="meta clearfix">
+      <div class="info file-name">
+          <span>1 lines (1 sloc)</span>
+          <span class="meta-divider"></span>
+        <span>22.259 kb</span>
+      </div>
+      <div class="actions">
+        <div class="button-group">
+          <a href="/katspaugh/wavesurfer.js/raw/master/build/wavesurfer-js-map.json" class="minibutton " id="raw-url">Raw</a>
+            <a href="/katspaugh/wavesurfer.js/blame/master/build/wavesurfer-js-map.json" class="minibutton js-update-url-with-hash">Blame</a>
+          <a href="/katspaugh/wavesurfer.js/commits/master/build/wavesurfer-js-map.json" class="minibutton " rel="nofollow">History</a>
+        </div><!-- /.button-group -->
+
+          <a class="octicon-button tooltipped tooltipped-nw js-conduit-openfile-check"
+             href="http://mac.github.com"
+             data-url="github-mac://openRepo/https://github.com/katspaugh/wavesurfer.js?branch=master&amp;filepath=build%2Fwavesurfer-js-map.json"
+             aria-label="Open this file in GitHub for Mac"
+             data-failed-title="Your version of GitHub for Mac is too old to open this file. Try checking for updates.">
+              <span class="octicon octicon-device-desktop"></span>
+          </a>
+
+              <a class="octicon-button tooltipped tooltipped-n js-update-url-with-hash"
+                 aria-label="Clicking this button will fork this project so you can edit the file"
+                 href="/katspaugh/wavesurfer.js/edit/master/build/wavesurfer-js-map.json"
+                 data-method="post" rel="nofollow"><span class="octicon octicon-pencil"></span></a>
+
+            <a class="octicon-button danger tooltipped tooltipped-s"
+               href="/katspaugh/wavesurfer.js/delete/master/build/wavesurfer-js-map.json"
+               aria-label="Fork this project and delete file"
+               data-method="post" data-test-id="delete-blob-file" rel="nofollow">
+          <span class="octicon octicon-trashcan"></span>
+        </a>
+      </div><!-- /.actions -->
+    </div>
+
+
+  <div class="blob-wrapper data type-json">
+      <table class="highlight tab-size-8 js-file-line-container">
+      <tr>
+        <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="LC1" class="blob-code js-file-line">{&quot;version&quot;:3,&quot;file&quot;:&quot;build/wavesurfer.min.js&quot;,&quot;sources&quot;:[&quot;src/wavesurfer.js&quot;,&quot;src/webaudio.js&quot;,&quot;src/audioelement.js&quot;,&quot;src/drawer.js&quot;,&quot;src/drawer.canvas.js&quot;],&quot;names&quot;:[&quot;WaveSurfer&quot;,&quot;defaultParams&quot;,&quot;height&quot;,&quot;waveColor&quot;,&quot;progressColor&quot;,&quot;cursorColor&quot;,&quot;cursorWidth&quot;,&quot;skipLength&quot;,&quot;minPxPerSec&quot;,&quot;pixelRatio&quot;,&quot;window&quot;,&quot;devicePixelRatio&quot;,&quot;fillParent&quot;,&quot;scrollParent&quot;,&quot;hideScrollbar&quot;,&quot;normalize&quot;,&quot;audioContext&quot;,&quot;container&quot;,&quot;dragSelection&quot;,&quot;loopSelection&quot;,&quot;audioRate&quot;,&quot;interact&quot;,&quot;renderer&quot;,&quot;backend&quot;,&quot;init&quot;,&quot;params&quot;,&quot;this&quot;,&quot;util&quot;,&quot;extend&quot;,&quot;document&quot;,&quot;querySelector&quot;,&quot;Error&quot;,&quot;savedVolume&quot;,&quot;isMuted&quot;,&quot;createDrawer&quot;,&quot;createBackend&quot;,&quot;my&quot;,&quot;drawer&quot;,&quot;Object&quot;,&quot;create&quot;,&quot;Drawer&quot;,&quot;on&quot;,&quot;drawBuffer&quot;,&quot;progress&quot;,&quot;getPlayedPercents&quot;,&quot;e&quot;,&quot;setTimeout&quot;,&quot;seekTo&quot;,&quot;fireEvent&quot;,&quot;destroy&quot;,&quot;time&quot;,&quot;message&quot;,&quot;restartAnimationLoop&quot;,&quot;requestFrame&quot;,&quot;requestAnimationFrame&quot;,&quot;webkitRequestAnimationFrame&quot;,&quot;frame&quot;,&quot;isPaused&quot;,&quot;getDuration&quot;,&quot;getCurrentTime&quot;,&quot;play&quot;,&quot;start&quot;,&quot;end&quot;,&quot;pause&quot;,&quot;playPause&quot;,&quot;skipBackward&quot;,&quot;seconds&quot;,&quot;skip&quot;,&quot;skipForward&quot;,&quot;offset&quot;,&quot;position&quot;,&quot;duration&quot;,&quot;Math&quot;,&quot;max&quot;,&quot;min&quot;,&quot;seekAndCenter&quot;,&quot;recenter&quot;,&quot;paused&quot;,&quot;oldScrollParent&quot;,&quot;stop&quot;,&quot;setVolume&quot;,&quot;newVolume&quot;,&quot;setPlaybackRate&quot;,&quot;rate&quot;,&quot;toggleMute&quot;,&quot;getVolume&quot;,&quot;toggleScroll&quot;,&quot;toggleInteraction&quot;,&quot;nominalWidth&quot;,&quot;round&quot;,&quot;parentWidth&quot;,&quot;getWidth&quot;,&quot;width&quot;,&quot;peaks&quot;,&quot;getPeaks&quot;,&quot;drawPeaks&quot;,&quot;loadArrayBuffer&quot;,&quot;arraybuffer&quot;,&quot;decodeArrayBuffer&quot;,&quot;data&quot;,&quot;loadDecodedBuffer&quot;,&quot;buffer&quot;,&quot;empty&quot;,&quot;load&quot;,&quot;loadBlob&quot;,&quot;blob&quot;,&quot;reader&quot;,&quot;FileReader&quot;,&quot;addEventListener&quot;,&quot;onProgress&quot;,&quot;target&quot;,&quot;result&quot;,&quot;readAsArrayBuffer&quot;,&quot;url&quot;,&quot;loadBuffer&quot;,&quot;loadAudioElement&quot;,&quot;downloadArrayBuffer&quot;,&quot;bind&quot;,&quot;once&quot;,&quot;err&quot;,&quot;callback&quot;,&quot;ajax&quot;,&quot;responseType&quot;,&quot;statusText&quot;,&quot;lengthComputable&quot;,&quot;percentComplete&quot;,&quot;loaded&quot;,&quot;total&quot;,&quot;exportPCM&quot;,&quot;length&quot;,&quot;accuracy&quot;,&quot;noWindow&quot;,&quot;arr&quot;,&quot;map&quot;,&quot;call&quot;,&quot;val&quot;,&quot;json&quot;,&quot;JSON&quot;,&quot;stringify&quot;,&quot;open&quot;,&quot;encodeURIComponent&quot;,&quot;disconnectSource&quot;,&quot;setWidth&quot;,&quot;unAll&quot;,&quot;Observer&quot;,&quot;event&quot;,&quot;fn&quot;,&quot;handlers&quot;,&quot;push&quot;,&quot;un&quot;,&quot;i&quot;,&quot;splice&quot;,&quot;handler&quot;,&quot;apply&quot;,&quot;arguments&quot;,&quot;args&quot;,&quot;Array&quot;,&quot;prototype&quot;,&quot;slice&quot;,&quot;forEach&quot;,&quot;dest&quot;,&quot;sources&quot;,&quot;source&quot;,&quot;keys&quot;,&quot;key&quot;,&quot;getId&quot;,&quot;random&quot;,&quot;toString&quot;,&quot;substring&quot;,&quot;values&quot;,&quot;Infinity&quot;,&quot;len&quot;,&quot;abs&quot;,&quot;options&quot;,&quot;xhr&quot;,&quot;XMLHttpRequest&quot;,&quot;fired100&quot;,&quot;method&quot;,&quot;status&quot;,&quot;response&quot;,&quot;send&quot;,&quot;WebAudio&quot;,&quot;scriptBufferSize&quot;,&quot;fftSize&quot;,&quot;PLAYING_STATE&quot;,&quot;PAUSED_STATE&quot;,&quot;FINISHED_STATE&quot;,&quot;getAudioContext&quot;,&quot;AudioContext&quot;,&quot;webkitAudioContext&quot;,&quot;ac&quot;,&quot;lastPlay&quot;,&quot;currentTime&quot;,&quot;startPosition&quot;,&quot;states&quot;,&quot;state&quot;,&quot;playing&quot;,&quot;finished&quot;,&quot;setState&quot;,&quot;createVolumeNode&quot;,&quot;createScriptNode&quot;,&quot;createAnalyserNode&quot;,&quot;disconnectFilters&quot;,&quot;filters&quot;,&quot;filter&quot;,&quot;disconnect&quot;,&quot;setFilter&quot;,&quot;setFilters&quot;,&quot;reduce&quot;,&quot;prev&quot;,&quot;curr&quot;,&quot;connect&quot;,&quot;analyser&quot;,&quot;gainNode&quot;,&quot;bufferSize&quot;,&quot;scriptNode&quot;,&quot;createScriptProcessor&quot;,&quot;createJavaScriptNode&quot;,&quot;destination&quot;,&quot;onaudioprocess&quot;,&quot;createAnalyser&quot;,&quot;analyserData&quot;,&quot;Uint8Array&quot;,&quot;frequencyBinCount&quot;,&quot;createGain&quot;,&quot;createGainNode&quot;,&quot;newGain&quot;,&quot;gain&quot;,&quot;value&quot;,&quot;errback&quot;,&quot;decodeAudioData&quot;,&quot;sampleSize&quot;,&quot;sampleStep&quot;,&quot;channels&quot;,&quot;numberOfChannels&quot;,&quot;Float32Array&quot;,&quot;c&quot;,&quot;chan&quot;,&quot;getChannelData&quot;,&quot;j&quot;,&quot;waveform&quot;,&quot;getByteTimeDomainData&quot;,&quot;createSource&quot;,&quot;createBufferSource&quot;,&quot;noteGrainOn&quot;,&quot;noteOff&quot;,&quot;playbackRate&quot;,&quot;undefined&quot;,&quot;getPlayedTime&quot;,&quot;adjustedTime&quot;,&quot;AudioElement&quot;,&quot;media&quot;,&quot;createElement&quot;,&quot;controls&quot;,&quot;autoplay&quot;,&quot;preload&quot;,&quot;src&quot;,&quot;prevMedia&quot;,&quot;removeChild&quot;,&quot;appendChild&quot;,&quot;seekable&quot;,&quot;volume&quot;,&quot;parentNode&quot;,&quot;lastPos&quot;,&quot;createWrapper&quot;,&quot;createElements&quot;,&quot;wrapper&quot;,&quot;style&quot;,&quot;display&quot;,&quot;userSelect&quot;,&quot;webkitUserSelect&quot;,&quot;overflowX&quot;,&quot;overflowY&quot;,&quot;setupWrapperEvents&quot;,&quot;handleEvent&quot;,&quot;preventDefault&quot;,&quot;bbox&quot;,&quot;getBoundingClientRect&quot;,&quot;clientX&quot;,&quot;left&quot;,&quot;scrollLeft&quot;,&quot;scrollWidth&quot;,&quot;scrollbarHeight&quot;,&quot;offsetHeight&quot;,&quot;clientHeight&quot;,&quot;clientY&quot;,&quot;bottom&quot;,&quot;resetScroll&quot;,&quot;drawWave&quot;,&quot;el&quot;,&quot;styles&quot;,&quot;prop&quot;,&quot;percent&quot;,&quot;recenterOnPosition&quot;,&quot;immediate&quot;,&quot;half&quot;,&quot;clientWidth&quot;,&quot;maxScroll&quot;,&quot;updateWidth&quot;,&quot;minPxDelta&quot;,&quot;pos&quot;,&quot;newPos&quot;,&quot;updateProgress&quot;,&quot;clearWave&quot;,&quot;Canvas&quot;,&quot;waveCanvas&quot;,&quot;zIndex&quot;,&quot;waveCc&quot;,&quot;getContext&quot;,&quot;progressWave&quot;,&quot;overflow&quot;,&quot;borderRightStyle&quot;,&quot;borderRightWidth&quot;,&quot;borderRightColor&quot;,&quot;progressCanvas&quot;,&quot;progressCc&quot;,&quot;canvas&quot;,&quot;clearRect&quot;,&quot;$&quot;,&quot;fillStyle&quot;,&quot;halfH&quot;,&quot;coef&quot;,&quot;scale&quot;,&quot;beginPath&quot;,&quot;moveTo&quot;,&quot;h&quot;,&quot;lineTo&quot;,&quot;fill&quot;,&quot;fillRect&quot;],&quot;mappings&quot;:&quot;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&quot;,&quot;sourceRoot&quot;:&quot;/&quot;}</td>
+      </tr>
+</table>
+
+  </div>
+
+  </div>
+</div>
+
+<a href="#jump-to-line" rel="facebox[.linejump]" data-hotkey="l" style="display:none">Jump to Line</a>
+<div id="jump-to-line" style="display:none">
+  <form accept-charset="UTF-8" class="js-jump-to-line-form">
+    <input class="linejump-input js-jump-to-line-field" type="text" placeholder="Jump to line&hellip;" autofocus>
+    <button type="submit" class="button">Go</button>
+  </form>
+</div>
+
+        </div>
+
+      </div><!-- /.repo-container -->
+      <div class="modal-backdrop"></div>
+    </div><!-- /.container -->
+  </div><!-- /.site -->
+
+
+    </div><!-- /.wrapper -->
+
+      <div class="container">
+  <div class="site-footer" role="contentinfo">
+    <ul class="site-footer-links right">
+      <li><a href="https://status.github.com/">Status</a></li>
+      <li><a href="https://developer.github.com">API</a></li>
+      <li><a href="http://training.github.com">Training</a></li>
+      <li><a href="http://shop.github.com">Shop</a></li>
+      <li><a href="/blog">Blog</a></li>
+      <li><a href="/about">About</a></li>
+
+    </ul>
+
+    <a href="/" aria-label="Homepage">
+      <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
+    </a>
+
+    <ul class="site-footer-links">
+      <li>&copy; 2015 <span title="0.05601s from github-fe125-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="/site/terms">Terms</a></li>
+        <li><a href="/site/privacy">Privacy</a></li>
+        <li><a href="/security">Security</a></li>
+        <li><a href="/contact">Contact</a></li>
+    </ul>
+  </div><!-- /.site-footer -->
+</div><!-- /.container -->
+
+
+    <div class="fullscreen-overlay js-fullscreen-overlay" id="fullscreen_overlay">
+  <div class="fullscreen-container js-suggester-container">
+    <div class="textarea-wrap">
+      <textarea name="fullscreen-contents" id="fullscreen-contents" class="fullscreen-contents js-fullscreen-contents" placeholder=""></textarea>
+      <div class="suggester-container">
+        <div class="suggester fullscreen-suggester js-suggester js-navigation-container"></div>
+      </div>
+    </div>
+  </div>
+  <div class="fullscreen-sidebar">
+    <a href="#" class="exit-fullscreen js-exit-fullscreen tooltipped tooltipped-w" aria-label="Exit Zen Mode">
+      <span class="mega-octicon octicon-screen-normal"></span>
+    </a>
+    <a href="#" class="theme-switcher js-theme-switcher tooltipped tooltipped-w"
+      aria-label="Switch themes">
+      <span class="octicon octicon-color-mode"></span>
+    </a>
+  </div>
+</div>
+
+
+
+    <div id="ajax-error-message" class="flash flash-error">
+      <span class="octicon octicon-alert"></span>
+      <a href="#" class="octicon octicon-x flash-close js-ajax-error-dismiss" aria-label="Dismiss error"></a>
+      Something went wrong with that request. Please try again.
+    </div>
+
+
+      <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/frameworks-fc447938e306b7b2c26a33cfee9dfda9052aeb1aa6ad84b72f1b35fd008efe9e.js" type="text/javascript"></script>
+      <script async="async" crossorigin="anonymous" src="https://assets-cdn.github.com/assets/github-56c56f7fe2ed90ca50b9eefebccd56f3b9729a85d7ba17f0f9c9ebd02f20a7e3.js" type="text/javascript"></script>
+
+
+  </body>
+</html>
+
