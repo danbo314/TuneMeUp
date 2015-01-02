@@ -25,7 +25,7 @@
         $player.append("<div class='tmuPlayer " + settings.theme + "'>" +
             "<div class='heydings buttonNav stop'>S</div>" +
             "<div class='heydings buttonNav playPause'>P</div>" +
-            "<div id='" + waveId + "'></div>" +
+            "<div id='" + waveId + "'><div class='duration'></div></div>" +
             "<div class='heydings buttonNav repeat'>r</div>" +
             "</div>").on("click", ".playPause", function () {
 
@@ -75,6 +75,22 @@
         });
 
         wavesurfer.load(settings.songPath);
+
+        wavesurfer.on("ready", function (progress, ev) {
+            var totSecs = wavesurfer.getDuration(),
+                hours = parseInt(totSecs/3600) % 24,
+                minutes = parseInt(totSecs/60) % 60,
+                seconds = parseInt(totSecs % 60, 10),
+                dur;
+
+            hours = (hours === 0) ? "" : hours + ":";
+            minutes = (minutes === 0) ? "" : !hours ? minutes + ":" : (minutes < 10) ? "0" + minutes + ":" : minutes + ":";
+            seconds = (!hours && !minutes) ? seconds + "s" : (seconds < 10) ? "0" + seconds : seconds;
+
+            dur = hours + minutes + seconds;
+
+            $player.find(".duration").text(dur);
+        });
 
         wavesurfer.on("finish", function () {
             $player.find(".playPause").text("P");

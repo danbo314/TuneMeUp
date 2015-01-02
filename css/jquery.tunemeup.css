@@ -42,4 +42,19 @@
 
 div[id*="wave_"] {
     width: 300px !important;
+    position: relative;
+}
+
+.duration {
+    background: rgba(33, 33, 33, 0.8);
+    color: #cbcbcb;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 3;
+    padding: 1px 7px 1px 7px;
+    pointer-events: none;
+    border-radius: 3px 3px 0 0;
+    font-size: 13px;
+    font-family: "arial", sans-serif;
 }
