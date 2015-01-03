@@ -45,16 +45,25 @@ div[id*="wave_"] {
     position: relative;
 }
 
-.duration {
-    background: rgba(33, 33, 33, 0.8);
-    color: #cbcbcb;
+.overlay {
     position: absolute;
-    bottom: 0;
-    right: 0;
     z-index: 3;
     padding: 1px 7px 1px 7px;
     pointer-events: none;
     border-radius: 3px 3px 0 0;
     font-size: 13px;
+    background: rgba(33, 33, 33, 0.8);
+    color: #cbcbcb;
     font-family: "arial", sans-serif;
+    display: none;
+}
+
+.counter {
+    bottom: 0;
+    left: 0;
+}
+
+.duration {
+    bottom: 0;
+    right: 0;
 }
